@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dizay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-07 11:58:30 PM"/>
+        <attribute name="created" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDc7MTE6NDk6NDYgUE07MjI2OA=="/>
+        <attribute name="edited" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDc7MTE6NTg6MzAgUE07NDsyMzcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d, L" type="Real" array="False" size=""/>
+            <output expression="&quot;Aylananing diametrini kiriting: &quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="L" expression="d * pi"/>
+            <output expression="&quot;Aylananing uzunligi: &quot; &amp;L" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

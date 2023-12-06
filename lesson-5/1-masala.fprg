@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dizay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-07 11:52:53 PM"/>
+        <attribute name="created" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDc7MTE6NDk6NDYgUE07MjI2OA=="/>
+        <attribute name="edited" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDc7MTE6NTI6NTMgUE07MTsyMzY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, P" type="Integer" array="False" size=""/>
+            <output expression="&quot;Kvadratning tomon o'lchamini kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="P" expression="a * 4"/>
+            <output expression="&quot;Kvadratning peremetri: &quot; &amp;P" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

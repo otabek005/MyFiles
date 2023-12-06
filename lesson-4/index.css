@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul, li{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.navbar-items{
+    display: flex;
+    gap: 20px;
+}
+
+.nav.item{
+    font-size: 20px;
+}
+
+.main1{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.main1-box{
+    display: flex;
+    gap: 40px;
+}
+
+.text-p1{
+    font-weight: 100px;
+    line-height: 20px;
+    color: rgba(88, 88, 88, 0.759);
+}
+
+.text-h1{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.text-p2{
+    color:rgba(88, 88, 88, 0.759);
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.main2{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 30px;
+}
+
+.main2-img1{
+    padding-top: 30px;
+    width: 100%;
+    box-shadow: 10px 40px 50px 0px rgba(198, 194, 194, 0.416);
+    height: 580px;    
+}
+
+.main2-p1{
+    padding-top: 15px;
+    padding-bottom: 1px;
+    color:rgba(88, 88, 88, 0.759);
+}
+
+.main2-h1{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 12;
+}
+
+.main2-2{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 30px;
+}   
+
+.main3{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 30px;
+    border-bottom: 5px solid black;
+}
+
+.main3-img1{
+    padding-top: 30px;
+    width: 100%;
+    /* box-shadow: 10px 40px 50px 0px rgba(198, 194, 194, 0.416); */
+    height: 420px; 
+}
+
+.main3-img1 img{
+    width: 100%;
+}
+
+.main3-img1 h2{
+    font-size: 25px;
+}
+
+.main3-2{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 30px;
+}
+
+.main3-button{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.main3-button button{
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.main4{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 30px;
+}
+
+.main4-img{
+    padding-top: 30px;
+    width: 50%;
+    /* box-shadow: 10px 40px 50px 0px rgba(198, 194, 194, 0.416); */
+    height: 550px; 
+}
+
+
+.main4-p1{
+    margin-top: 15px;
+}
+
+.main4-h1{
+    margin-top: 15px;
+}
+
+.main4-b1{
+    margin-top: 25px;
+    font-family: none;
+}
+
+footer{
+    background: #141414;
+    height: 617px;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+.foter1{
+    color: white;
+    padding-top: 93px;
+    display: flex;
+    border-bottom: 4px solid white;
+    padding-bottom: 60px;
+}
+
+.fotcategories{
+    margin-top: 80px;
+    color: white;
+    width: 900px;
+    height: 78px;
+}
+
+.fotul{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 120px;
+    margin-top: 30px;
+}
+
+.fotul a{
+    color: white;
+}
+
+.fotul1{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 90px;
+    margin-top: 30px;
+}
+
+.fotul1 a{
+    color: white;
+}
+
+.input-email{
+    text-align: right;
+}
+
+.input-email input{
+    width: 221px;
+    height: 48px;
+    font-size: 19px;   
+}
+
+.input-email button{
+    width: 79px;
+    height: 48px;
+    margin-right: 100px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.ul1{
+    margin-top: 50px;
+    width: 225px;
+    height: 129px;
+}
+
+.ul1 b{
+    color:#666666;
+}
+
+.ul1 ul{
+    margin-top: 15px;
+    line-height: 30px;   
+}
+
+.ul1 a{
+    color: white;
+}
+.foter2{
+    display: flex;
+}

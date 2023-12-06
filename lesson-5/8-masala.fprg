@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dizay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-08 12:09:39 AM"/>
+        <attribute name="created" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDc7MTE6NDk6NDYgUE07MjI2OA=="/>
+        <attribute name="edited" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDg7MTI6MDk6MzkgQU07ODsyMzY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;A sonini kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B sonini kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="(a+b) /2"/>
+            <output expression="&quot;Ikki sonning o'rta arifmetigi: &quot; &amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

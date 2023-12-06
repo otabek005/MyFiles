@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800&family=Poppins:wght@100&family=Tenor+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;   */
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+body{
+    background: #FFDF8C;
+}
+
+
+.header-box{
+    background-color: white;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+}
+
+.box1{
+    display: flex;
+    gap: 15px;
+}
+
+.box1 > div > h1{
+    color: #181818;
+    /* font-family: Nunito; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.box1 > div > p{
+    color: #7B7B7B;
+    /* font-family: Nunito; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box2{
+    display: flex;
+    gap: 3px;
+    padding: 13px 21px 13px 14px;
+    border: 1px solid rgba(0, 0, 0, 0.104);
+    width: 400px;
+}
+.box2 > input{
+    color: #757575;
+    /* font-family: Nunito; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 300px;
+    border: 1px solid white
+}
+
+.box3{
+    padding: 14px 20px;
+    border-radius: 30px;
+    background: #FE5F1E;
+    color: white;
+}
+
+.box3 > p{
+    font-size: 20px;
+}
+
+.section-1{
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-bottom: 49px;
+}
+
+.section-1 > ul{
+    display: flex;
+    gap: 35px;
+}
+
+.section-1 > ul > li > a{
+    color: #000000;
+    /* font-family: Nunito; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-1 > ul > li{
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.section-1 > ul > li:hover{
+    background-color: #000000;
+    border-radius: 30px;
+}
+
+.section-1 > ul > li:hover > a{
+    color: white;
+}
+.section-1--h1{
+    color: #232323;
+    /* font-family: Nunito; */
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px; /* 78.947% */
+    margin-left: 70px;
+    padding-bottom: 49px;
+}
+
+.section-2{
+    margin-left: 70px;
+    display: flex;
+    gap: 40px;
+    padding-right: 70px;
+    padding-bottom: 140px;
+    position: relative;
+}
+
+.section-2 > div{
+    width: 400px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 5px 2px 30px 0px rgba(210, 208, 215, 0.30);
+}
+
+.section-2 > div > h3{
+    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 14px;
+    color: #000;
+    /* font-family: Nunito; */
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 89.474% */
+}
+
+.section-2 > div > p{
+    color: #828282;
+    /* font-family: Roboto; */
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 107.692% */
+    width: 216px;
+    margin-left: 14px;
+    margin-bottom: 47px;
+}
+
+.section-2 > div > button{
+    padding: 5px 15px;
+    border-radius: 7px;
+    background: #EBEBEB;
+    color: #000;
+    margin-left: 14px;
+    /* font-family: Roboto; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; /* 93.333% */
+    border: none;
+    margin-top: 50px;
+}
+
+.section-2 > div > button > span{
+    color: #000;
+    /* font-family: Roboto; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.section-2 > div > img:last-child{
+    position:relative;
+    left: 90px;
+    top: 4px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}  
+
+.section-2 > div:hover > img:last-child{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+

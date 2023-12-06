@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: azure;
+}
+
+tr{
+    height: 30px;
+}
+
+tr:hover{
+    background-color: coral;
+    color: white;
+}
+
+
+
+

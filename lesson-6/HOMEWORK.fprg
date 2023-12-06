@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dizay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-08 04:19:19 PM"/>
+        <attribute name="created" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDg7MDM6MjA6NTIgUE07MjI1Ng=="/>
+        <attribute name="edited" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDg7MDQ6MTk6MTkgUE07MTsyMzc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Login, Parol, a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <assign variable="Login" expression="2"/>
+            <assign variable="Parol" expression="2"/>
+            <while expression="Login != 0000 || Parol != 1111">
+                <output expression="&quot;Loginni kiriting: (0000)&quot;" newline="True"/>
+                <input variable="Login"/>
+                <output expression="&quot;Parolni kiriting: (1111)&quot;" newline="True"/>
+                <input variable="Parol"/>
+            </while>
+            <output expression="&quot;Tizimga xush kelibsiz !&quot;" newline="True"/>
+            <while expression="a != 7">
+                <output expression="&quot;[1] -&gt; Bosh sahifa&quot;" newline="True"/>
+                <output expression="&quot;[2] -&gt; To'lovlarim&quot;" newline="True"/>
+                <output expression="&quot;[3] -&gt; Guruhlarim&quot;" newline="True"/>
+                <output expression="&quot;[4] -&gt; Ko'rsatgichlarim&quot;" newline="True"/>
+                <output expression="&quot;[5] -&gt; Reyting&quot;" newline="True"/>
+                <output expression="&quot;[6] -&gt; Sozlamalar&quot;" newline="True"/>
+                <output expression="&quot;[7] -&gt; EXIT&quot;" newline="True"/>
+                <input variable="a"/>
+                <if expression="a == 1">
+                    <then>
+                        <output expression="&quot;Oxirgi dars:&quot; &amp; &quot;           HTML, CSS, Box model, properties&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="a == 2">
+                            <then>
+                                <output expression="&quot;Dasturlash Front-end:      2.280.000 som         31.10.2023&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="a==3">
+                                    <then>
+                                        <output expression="&quot;Bootcamp Front-end (ReactJS) N4&quot;" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <if expression="a == 4">
+                                            <then>
+                                                <output expression="&quot;Yigilgan natijalar monitoring:     Level: 0         XP: 0&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <if expression="a == 5">
+                                                    <then>
+                                                        <output expression="&quot;1 - Ortiqov Botir 2 Jumazarov Jumanazar 3 Azamov Otabek 4 Bexruz Rahmatullayev&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <if expression="a = 6">
+                                                            <then>
+                                                                <output expression="&quot;Hozirda tizimda nosozlik kirish mumkin emas. Taqiqlangan !&quot;" newline="True"/>
+                                                            </then>
+                                                            <else>
+                                                                <if expression="a == 7">
+                                                                    <then/>
+                                                                    <else>
+                                                                        <output expression="&quot;Bunday menu mavjud emas&quot;" newline="True"/>
+                                                                    </else>
+                                                                </if>
+                                                            </else>
+                                                        </if>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

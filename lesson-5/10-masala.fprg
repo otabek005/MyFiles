@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dizay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-08 12:19:44 AM"/>
+        <attribute name="created" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDc7MTE6NDk6NDYgUE07MjI2OA=="/>
+        <attribute name="edited" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDg7MTI6MTk6NDQgQU07MTA7MjQwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Tf, Tc" type="Integer" array="False" size=""/>
+            <output expression="&quot;Temperatura gradus kiriting: &quot;" newline="True"/>
+            <input variable="Tf"/>
+            <assign variable="Tc" expression="(Tf-32)*5/9"/>
+            <output expression="&quot;Farengeyd o'lcham: &quot; &amp;Tc" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dizay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-08 12:01:33 AM"/>
+        <attribute name="created" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDc7MTE6NDk6NDYgUE07MjI2OA=="/>
+        <attribute name="edited" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDg7MTI6MDE6MzMgQU07NTsyMzUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, S, V" type="Integer" array="False" size=""/>
+            <output expression="&quot;Kubning yon tomon olchamini kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="V" expression="a*a*a"/>
+            <assign variable="S" expression="6*(a*a)"/>
+            <output expression="&quot;Kubning hajmi: &quot; &amp;V" newline="True"/>
+            <output expression="&quot;Kubning to'la sirti: &quot; &amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

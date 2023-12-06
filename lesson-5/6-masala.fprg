@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dizay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-08 12:04:27 AM"/>
+        <attribute name="created" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDc7MTE6NDk6NDYgUE07MjI2OA=="/>
+        <attribute name="edited" value="ZGl6YXk7T1RBQkVLOzIwMjMtMTEtMDg7MTI6MDQ6MjcgQU07NjsyMzU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, V, S" type="Integer" array="False" size=""/>
+            <output expression="&quot;Paralelopipedning 3 tomonini kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="V" expression="a*b*c"/>
+            <assign variable="S" expression="2*(a*b+b*c+a*c)"/>
+            <output expression="&quot;Hajmi: &quot; &amp;V" newline="True"/>
+            <output expression="&quot;To'la sirti: &quot; &amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
